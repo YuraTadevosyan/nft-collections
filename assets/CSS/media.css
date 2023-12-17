@@ -1,0 +1,206 @@
+/* Extra small -- less than 576px */
+@media only screen and (min-width: 0px) {
+}
+
+/* Small -- more than 575px */
+@media only screen and (min-width: 576px) {
+    /*  Main  */
+
+    /*  Intro  */
+    .statistics .col {
+        padding: 0 15px;
+    }
+
+    .statistic-title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .statistic-subtitle {
+        font-size: 16px;
+    }
+
+    /*  Learn History  */
+    .history-views {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Medium -- more than 767px */
+@media only screen and (min-width: 768px) {
+    /*  Main  */
+
+    .section-title {
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 56px;
+    }
+
+    /*  Intro  */
+    .intro-title {
+        font-size: 64px;
+        line-height: 82px;
+    }
+
+    .intro-subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Large -- more than 991px */
+@media only screen and (min-width: 992px) {
+    /*  Header */
+    .navbar-block {
+        width: 100% !important;
+    }
+
+    /*  Intro  */
+    .statistics {
+        padding: 24px 47px;
+    }
+
+    /*  Nfts  */
+    .nfts {
+        padding: 0 98px;
+    }
+
+    .nfts-section .section-title {
+        margin-bottom: 104px;
+    }
+
+    .nfts > div:nth-child(2) {
+        top: -48px;
+        border-radius: 8px;
+        background: linear-gradient(0deg, #301C49, #301C49),
+        linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+    }
+}
+
+/* Extra large -- more than 1199px */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1240px;
+    }
+
+    /*  Header */
+    header .navbar-nav {
+        margin-right: 82px;
+    }
+
+    /*  Main  */
+
+    /* Intro */
+    .intro-title {
+        max-width: 430px;
+    }
+
+    .img-col {
+        right: calc(-50vw + 628px)
+    }
+
+    /*  Learn History  */
+    .see-more-block {
+        margin-left: 66px;
+    }
+
+    .see-more-block i {
+        margin-left: 66px;
+    }
+
+    .history-images {
+        margin: 0 45px;
+    }
+
+    /*  Sellers  */
+    .sellers-section .carousel-inner {
+        max-width: calc(100% - 218px);
+    }
+
+    #sellersCarousel .card-title {
+        font-size: 18px
+    }
+}
+
+/* More than 1440px */
+@media only screen and (min-width: 1441px) {
+    /*  Main  */
+
+    /* Intro */
+    .intro-section.blured-section:before {
+        width: 514px;
+        height: 514px;
+    }
+
+    .intro-section.blured-section:before {
+        left: 123px;
+    }
+
+    .img-col {
+        right: 0;
+    }
+
+    .img-col.blured-section:before {
+        top: 27px;
+        left: -47px;
+        width: 326px;
+        height: 326px;
+        filter: blur(600px);
+    }
+
+    .img-col.blured-section:after {
+        top: -133px;
+        right: 231px;
+        width: 514px;
+        height: 514px;
+        filter: blur(600px);
+    }
+
+    /*  Learn History */
+    .history-section.blured-section:before {
+        top: -361px;
+        left: 60px;
+        width: 514px;
+        height: 514px;
+        filter: blur(400px);
+    }
+
+    /* NFTs */
+    .nfts-section.blured-section:before {
+        left: 408px;
+        width: 514px;
+        height: 514px;
+    }
+
+    /* Galleries */
+    .galleries-section.blured-section:before {
+        left: -56px;
+        width: 588px;
+        height: 588px;
+    }
+
+    /*  Sellers  */
+    .sellers-section.blured-section:before {
+        width: 478px;
+        height: 478px;
+        left: calc(50% + 85px);
+    }
+
+    /*  Blogs  */
+    .blogs-section.blured-section:after,
+    .blogs-section.blured-section:before {
+        width: 454px;
+        height: 454px;
+    }
+
+    .blogs-section.blured-section:before {
+        left: -100px;
+    }
+
+    .blogs-section.blured-section:after {
+        right: -100px;
+    }
+}
